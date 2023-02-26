@@ -12,6 +12,7 @@ public class covertMap {
         userList.add(new User(3L, "ccc"));
         userList.add(new User(2L, "ddd"));
         userList.add(new User(3L, "eee"));
+        //1
 
         //Map<Long, String> map = userList.stream().collect(Collectors.toMap(User::getId,User::getUserName,(v1,v2) -> v2));
         Map<String,String> mp = new HashMap<>();
